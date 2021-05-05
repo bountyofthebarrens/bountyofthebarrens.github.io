@@ -6,44 +6,42 @@
 /* https://prod.liveshare.vsengsaas.visualstudio.com/join?4CDCC3733FA9443263E74306A54C48C3EC05 */
 
 /* VENDOR PAGES */
-    .fa-phone-square{
-    margin-right:15px;
-    }
+.fa-phone-square {
+  margin-right: 15px;
+}
 
-    .fa-envelope-open-text{
-      margin-right:15px;
-    }
+.fa-envelope-open-text {
+  margin-right: 15px;
+}
 
-    .fa-map-marker-alt{
-      margin-right:15px;
-    }
+.fa-map-marker-alt {
+  margin-right: 15px;
+}
 
-    .fa-facebook-f{
-      margin-right:15px;
-    }
+.fa-facebook-f {
+  margin-right: 15px;
+}
 
-    ul.no-bullets {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
-/* .nav-placeholder {
+.nav-placeholder {
   position: sticky;
-} */
+}
 
 .bkgdColor {
   padding: 50px;
   background-size: contain;
-  /* width: 100%;
-  height: auto; */
-  
+  width: 100%;
+  height: auto;
 }
 
-/* img.bg {
+img.bg {
   background-size: contain;
-} */
-
+}
 
 /*  HOMEPAGE CAROUSEL ITEMS */
 .carousel-item {
@@ -68,21 +66,40 @@
 }
 
 /* NAVBAR CSS */
+
+.navbar {
+  
+  opacity: 0.8;
+  filter: (opacity=80);
+  padding-top: initial;
+  
+  /* position: sticky; */
+}
+
+.scrolled-down{
+  transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+  transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+
+
+
 .navbar-custom {
   opacity: 0.8;
   filter: (opacity=50);
-
-
 }
 
-.nav2 {
+/* .nav2 {
   position: sticky !important;
-}
+} */
 
 .my-4 {
+  font-family: 'McLaren', cursive;
   text-align: center;
   color: rgb(217, 72, 42);
   padding: 15px;
+  font-size:38px;
 }
 /* HOMEPAGE CARDS */
 
@@ -154,9 +171,9 @@
   color: rgb(110, 152, 65);
 }
 
-#header-image-menu img{
+#header-image-menu img {
   width: 100%;
-  margin: none;
+  margin-top: 153pxgit;
   padding: none;
 }
 
@@ -205,6 +222,8 @@
 }
 
 .my-3 {
+    font-family: 'Kristi', cursive;
+
   text-align: center;
   color: rgb(217, 72, 42);
 }
@@ -213,6 +232,21 @@
   margin-left: 100px;
   margin-top: 30px;
 }
+
+/* About Page Codes */
+
+#aboutheader{
+  font-family: 'Kristi', cursive;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 72px;
+  color: rgb(217, 72, 42);
+  text-align: right;
+
+
+} 
+
+
 /* FOOTER CSS */
 
 .fa-facebook {
@@ -261,9 +295,8 @@
   width: 50%;
 }
 
-/* .container {
-  justify-content: flex center;
-} */
 
-
-/* NAVBAR HIDE LOGO SCROLL */
+/* Margin for top of index.html */
+#video{
+  margin-top: 153px;
+}
