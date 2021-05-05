@@ -1,0 +1,269 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template/modern-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+/* https://prod.liveshare.vsengsaas.visualstudio.com/join?4CDCC3733FA9443263E74306A54C48C3EC05 */
+
+/* VENDOR PAGES */
+    .fa-phone-square{
+    margin-right:15px;
+    }
+
+    .fa-envelope-open-text{
+      margin-right:15px;
+    }
+
+    .fa-map-marker-alt{
+      margin-right:15px;
+    }
+
+    .fa-facebook-f{
+      margin-right:15px;
+    }
+
+    ul.no-bullets {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+/* .nav-placeholder {
+  position: sticky;
+} */
+
+.bkgdColor {
+  padding: 50px;
+  background-size: contain;
+  /* width: 100%;
+  height: auto; */
+  
+}
+
+/* img.bg {
+  background-size: contain;
+} */
+
+
+/*  HOMEPAGE CAROUSEL ITEMS */
+.carousel-item {
+  margin-top: 0px;
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-caption {
+  /* position: absolute; */
+  /* top: 0; */
+  left: 0;
+  width: 100%;
+  /* height: 100%; */
+  background: rgba(217, 72, 42, 0.7);
+}
+
+/* NAVBAR CSS */
+.navbar-custom {
+  opacity: 0.8;
+  filter: (opacity=50);
+
+
+}
+
+.nav2 {
+  position: sticky !important;
+}
+
+.my-4 {
+  text-align: center;
+  color: rgb(217, 72, 42);
+  padding: 15px;
+}
+/* HOMEPAGE CARDS */
+
+.card {
+  border: none;
+}
+.card-header {
+  text-align: center;
+  color: rgb(217, 72, 42);
+  /* background-color:  */
+  border: none;
+}
+.container .row .col-lg-4 .card #scrolling {
+  height: 50vh;
+  overflow: auto;
+  text-align: center;
+}
+#Dates {
+  text-align: center;
+  color: rgb(217, 72, 42);
+  text-transform: uppercase;
+}
+#dateHeader {
+  text-align: center;
+  color: rgb(110, 152, 65);
+}
+
+#ukag {
+  color: rgb(217, 72, 42);
+  text-transform: uppercase;
+}
+/* .fa-envelope-open-text{
+  flex-wrap: wrap;
+  background:black;
+} */
+.card {
+  /* opacity: 0.85; */
+  padding: 10px;
+}
+
+/* HOMEPAGE PORTFOLIO CARDS */
+
+.h4homepg a {
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: rgb(217, 72, 42);
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.card-title {
+  color: rgb(110, 152, 65);
+  text-align: center;
+}
+
+.fa-phone-square {
+  color: rgb(110, 152, 65);
+}
+.li {
+  margin: 100px;
+}
+.fa-envelope-open-text {
+  color: rgb(110, 152, 65);
+}
+
+.fa-map-marker-alt {
+  color: rgb(110, 152, 65);
+}
+
+#header-image-menu img{
+  width: 100%;
+  margin: none;
+  padding: none;
+}
+
+#calltoactionH3 {
+  text-align: center;
+  color: rgb(217, 72, 42);
+  padding: 50px;
+}
+
+.h1header {
+  text-align: left;
+  color: rgb(217, 72, 42);
+}
+.breadcrumb-item.active {
+  color: rgb(217, 72, 42);
+}
+.col-md-7 h3 {
+  color: rgb(217, 72, 42);
+}
+
+/* VIEW VENDORS PAGE */
+/* not working */
+.container .row .col-md-5 .logos-vendor {
+  background: black;
+  text-align: center;
+}
+
+.btn {
+  color: #fff;
+  background-color: rgb(110, 152, 65);
+  border: rgb(217, 72, 42);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: rgb(217, 72, 42);
+  border: rgb(217, 72, 42);
+}
+
+.py-5 {
+  text-align: center;
+  background: rgb(217, 72, 42);
+}
+
+.my-3 {
+  text-align: center;
+  color: rgb(217, 72, 42);
+}
+.venButton {
+  margin-bottom: 10px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+/* FOOTER CSS */
+
+.fa-facebook {
+  color: white;
+}
+.fa-twitter {
+  color: white;
+}
+
+.fa-at {
+  color: white;
+}
+
+.copyright {
+  padding: 10px;
+}
+
+.credit {
+  color: white;
+  text-decoration: underline;
+}
+
+.fa-facebook-f {
+  color: rgb(110, 152, 65);
+}
+.fa-globe {
+  color: rgb(110, 152, 65);
+}
+.no-bullets {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.no-bullets li {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  /* justify-items: center; */
+  /* flex-direction: column; */
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* .container {
+  justify-content: flex center;
+} */
+
+
+/* NAVBAR HIDE LOGO SCROLL */
