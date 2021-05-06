@@ -102,16 +102,22 @@ img.bg {
 } */
 .my-5{
   font-family: 'McLaren', cursive;
-  text-align: center;
+  text-align: right;
   color: rgb(217, 72, 42);
+}
+
+#weather {
+  /* padding-left: -30px; */
+  padding-top:30px;
+
 }
 
 .my-4 {
   font-family: 'McLaren', cursive;
   text-align: center;
   color: rgb(217, 72, 42);
-  padding: 15px;
-  font-size:38px;
+  margin-top: -150px;
+  font-size:30px;
 }
 /* HOMEPAGE CARDS */
 
@@ -235,7 +241,7 @@ img.bg {
 }
 
 .my-3 {
-    font-family: 'Kristi', cursive;
+    /* font-family: 'Kristi', cursive; */
 
   text-align: center;
   color: rgb(217, 72, 42);
