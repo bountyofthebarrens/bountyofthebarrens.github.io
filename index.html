@@ -447,6 +447,22 @@ Our event schedule has been affected by the COVID-19 pandemic, as soon as we are
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+  <script>
+
+$(document).ready(function () {
+    var scroll_pos = 0;
+    $("#bgcolor").scroll(function () {
+        scroll_pos = $(this).scrollTop();
+        if (scroll_pos > 210) {
+            $("#bgcolor").css('background-color', '#1A1A1A');
+        } else {
+            $("#bgcolor").css('background-color', 'red');
+        }
+        console.log(scroll_pos);
+    });
+});
+</script>
+
 </body>
 
 </html>

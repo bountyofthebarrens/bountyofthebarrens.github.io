@@ -28,9 +28,6 @@ ul.no-bullets {
   padding: 0;
 }
 
-.nav-placeholder {
-  position: sticky;
-}
 
 .bkgdColor {
   padding: 50px;
@@ -43,11 +40,13 @@ img.bg {
   background-size: contain;
 }
 
-/*  HOMEPAGE CAROUSEL ITEMS */
+/*  CAROUSEL ITEMS */
+.carousel-slide{
+  margin-top: 200px;
+}
+
 .carousel-item {
   margin-top: 0px;
-  height: 65vh;
-  min-height: 300px;
   background: no-repeat center center scroll;
   background: rgba(0, 0, 0, 0.7);
   -webkit-background-size: cover;
@@ -59,7 +58,7 @@ img.bg {
 .carousel-caption {
   /* position: absolute; */
   /* top: 0; */
-  left: 0;
+  /* left: 0; */
   width: 100%;
   /* height: 100%; */
   background: rgba(217, 72, 42, 0.7);
@@ -76,6 +75,9 @@ img.bg {
   /* position: sticky; */
 }
 
+.nav-placeholder {
+  position: sticky;
+}
 .scrolled-down{
   transform:translateY(-100%); transition: all 0.3s ease-in-out;
 }
@@ -83,8 +85,13 @@ img.bg {
   transform:translateY(0); transition: all 0.3s ease-in-out;
 }
 
-
-
+/* .navbar-brand {
+  position: absolute;
+  opacity: 0.0;
+} */
+.bgcolor.scrolled{
+  color:black;
+}
 .navbar-custom {
   opacity: 0.8;
   filter: (opacity=50);
@@ -93,6 +100,11 @@ img.bg {
 /* .nav2 {
   position: sticky !important;
 } */
+.my-5{
+  font-family: 'McLaren', cursive;
+  text-align: center;
+  color: rgb(217, 72, 42);
+}
 
 .my-4 {
   font-family: 'McLaren', cursive;
@@ -173,7 +185,8 @@ img.bg {
 
 #header-image-menu img {
   width: 100%;
-  margin-top: 153pxgit;
+  margin-top: 80px;
+  margin-bottom: 50px;
   padding: none;
 }
 
@@ -297,6 +310,6 @@ img.bg {
 
 
 /* Margin for top of index.html */
-#video{
+/* #video{
   margin-top: 153px;
-}
+} */
