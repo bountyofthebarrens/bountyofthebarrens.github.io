@@ -4,8 +4,57 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
 /* https://prod.liveshare.vsengsaas.visualstudio.com/join?4CDCC3733FA9443263E74306A54C48C3EC05 */
+/* VIDEO CODING */
+
+.container { position:relative; }
+.container video {
+  width:"100%";
+  height: "100%";
+    /* position:relative; */
+    z-index:0;
+}
+.overlay {
+  background-color: rgba(217, 72, 42, 0.7);
+    position:relative;
+    padding: 20px;
+  margin-top:-175px;
+  margin-bottom: 100px;
+    left:0;
+    z-index:1;
+color: white;
+text-align: center;
+}
+
+
 
 /* VENDOR PAGES */
+.vndrpay{
+  text-align: center;
+  margin-top:30px;
+}
+
+#backgroundimage
+{
+   /* height: auto; */
+   left: 0;
+   margin: 0;
+   min-height: 75%;
+   /* min-width: 674px; */
+   padding: 0;
+   /* position: fixed; */
+   top: 0;
+   width: 100%;
+   /* z-index: -1; */
+}
+
+#vndTop{
+  background-image: color url('assets/vendorTopPg.jpg') others;
+  background-repeat: no-repeat;
+  background-position: center; 
+  position: relative;
+  
+}
+
 .fa-phone-square {
   margin-right: 15px;
 }
@@ -14,6 +63,12 @@
   margin-right: 15px;
 }
 
+#payinfo{
+  text-align: center;
+  margin-top:30px;
+  padding-left: -50px;
+  margin-left: -50px;
+}
 .fa-map-marker-alt {
   margin-right: 15px;
 }

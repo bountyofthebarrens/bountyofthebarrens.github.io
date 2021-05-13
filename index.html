@@ -32,13 +32,26 @@
   
   <!-- VIDEO -->
 
-  <div id="video"> <video width="100%" height="100%" controls autoplay muted loop>
+  <!-- <div id="video"> <video width="100%" height="100%" controls autoplay muted loop>
     <source src="assets/BOTBVideo.mp4" type="video/mp4">
     
     Your browser does not support the video tag.
-  </video></div>
+  </video></div> -->
+  <!-- ORIGIONAL VIDEO CODE ABOVE -->
 
-
+  <!-- <div class="container"> -->
+    <div id="video"> <video width="100%" height="100%"   controls autoplay muted >
+      <source src="assets/BOTBVideo.mp4" type="video/mp4">
+      
+      Your browser does not support the video tag.
+    </video></div>
+    <div class="overlay">
+        
+            <h1>Now proudly accepting online payments!</h1>
+      
+    </div>
+</div>
+</div>
 
   
   <!-- Navigation -->
@@ -100,23 +113,18 @@
   <header>
     <div class="row">
       <div class="col-sm-2"></div>
-      <div class="col-md-3  homelogo">
+      <div class="col-md-2  homelogo">
         <a href="index.html">
         <img src="images/BOTBLogo.png" width="250" alt="Bounty of the Barrens Logo">
         </a>
       </div>
-      <div class="col-md-5">
-        <h1 class="my-4"><br>Experience the bountiful, beautiful, Bounty of the Barrens Farmer's Market this weekend!</h1>
+      <div class="col-md-4">
+        <h1 class="my-4">Visit vendor pages to pay vendors <br>directly, or buy BOTB tokens here.</h1>
+        </div>
+      <div class="col-sm-2" id="payinfo"><a href="https://www.paypal.com/paypalme/stephtheva/40" target="_blank"><i class="fab fa-paypal fa-3x"></i></a><p>Click the icon to pay<br> with Credit Card or PayPal</p>
       </div>
-      <div class="col-sm-1"></div>
     </div>
-    
-    <!-- <div class="row">
-      <a class="my-5" href="index.html">
-        <img src="images/BOTBLogo.png" width="250" alt="Bounty of the Barrens Logo">
-        <h1 class="my-4">Experience the bountiful, beautiful, Bounty of Barrens Farmer's Market this weekend!</h1>
-      </a>
-    </div> -->
+  
   </header>
 <!-- weather widget -->
 <div id="weather">
@@ -461,21 +469,7 @@ Our event schedule has been affected by the COVID-19 pandemic, as soon as we are
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <script>
-
-$(document).ready(function () {
-    var scroll_pos = 0;
-    $("#bgcolor").scroll(function () {
-        scroll_pos = $(this).scrollTop();
-        if (scroll_pos > 210) {
-            $("#bgcolor").css('background-color', '#1A1A1A');
-        } else {
-            $("#bgcolor").css('background-color', 'red');
-        }
-        console.log(scroll_pos);
-    });
-});
-</script>
+  
 
 </body>
 
