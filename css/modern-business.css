@@ -358,8 +358,7 @@ img.bg {
   display: flex;
   padding: 10px;
   align-items: center;
-  /* justify-items: center; */
-  /* flex-direction: column; */
+
 }
 
 .center {
@@ -374,3 +373,11 @@ img.bg {
 /* #video{
   margin-top: 153px;
 } */
+
+.vndrpay {
+  display: flex;
+  flex-direction: column;
+  text-shadow: #fff;
+  font-size: large;
+ 
+}
